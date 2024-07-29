@@ -1,0 +1,39 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.suo
+*.ncb
+*.sln.docstates
+*.vs/
+
+# ASP.NET Core
+wwwroot/
+appsettings*.json
+.env
+# Ignore appsettings files
+appsettings.json
+appsettings.Development.json
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Other ignored files
+*.log
+*.tmp
+
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
