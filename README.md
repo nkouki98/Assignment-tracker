@@ -44,9 +44,11 @@ cd your-repo
   },
 ```
 
-use ```console 
+use 
+```bash 
 dotnet build
-dotnet watch run ```
+dotnet watch run
+```
 
 
 
