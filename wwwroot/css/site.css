@@ -1,0 +1,125 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.header {
+  position: relative;
+  text-align: right;
+  margin-bottom: 2rem; /* Adjust spacing as needed */
+}
+
+.add-button {
+  padding: 4px 6px;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #1a1e21;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.6s ease, transform 0.6s ease; /* Added transition for transform */
+}
+
+.add-button:hover {
+  background-color: #2c3034;
+  transform: scale(1.2); /* Scale the button to 120% on hover */
+  color: white;
+}
+
+/* Style the table */
+.table {
+  width: 100%;
+  border-collapse: separate; /* Ensure border-radius works */
+  border-spacing: 0; /* Remove spacing between cells */
+  margin: 25px 0; /* Adjust the margin to increase spacing around the table */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the table */
+}
+
+.table th, .table td {
+  padding: 20px; /* Add padding to create space within cells */
+  border-bottom: 2px solid #2b2b2b; /* Add border for better visual separation */
+  border: #2c3034;
+}
+
+.table tr {
+  transition: background-color 0.6s ease; /* Smooth transition for background color on hover */
+}
+
+.table tr:hover {
+  background-color: #f4f4f48c; /* Highlight the row on hover */
+}
+
+/* Ensure action buttons are hidden by default */
+.action-buttons {
+  display: none; /* Hide by default */
+  gap: 15px; /* Space between buttons */
+  align-items: center; /* Center buttons vertically */
+}
+
+/* Display action buttons when hovering over the row */
+.assignment-row:hover .action-buttons {
+  display: flex; /* Show buttons on hover */
+}
+
+/* Style for buttons with icons */
+.btn-icon {
+  background: #f8f9fa; /* Light background */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 50%; /* Rounded button */
+  padding: 6px; /* Padding around the icon */
+  font-size: 14px; /* Icon size */
+  color: #495057; /* Darker color for the icon */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  display: inline-flex;
+  align-items: right;
+  justify-content: center;
+}
+
+.btn-icon i {
+  font-family: 'Font Awesome 5 Free'; /* Ensure Font Awesome is included */
+  font-weight: 700; /* Ensure Font Awesome is loaded correctly */
+}
+
+.btn-icon:hover {
+  background-color: #5b5b5b; /* Slightly darker background on hover */
+  color: #d0d0d1; /* Change color on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.btn-icon:focus {
+  outline: none;
+}
+
+.btn-icon:active {
+  background-color: #aaabac; /* Darker background on click */
+  color: #3d3d3d; /* Darker color on click */
+  transform: scale(1.00); /* Slightly reduce zoom effect */
+}

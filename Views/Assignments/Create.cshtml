@@ -1,0 +1,32 @@
+@model assignment_tracker.Models.Assignment
+
+<h1>Create Assignment</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="form-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Deadline" class="form-label"></label>
+        <input asp-for="Deadline" type="date" class="form-control" />
+        <span asp-validation-for="Deadline" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Course" class="form-label"></label>
+        <input asp-for="Course" class="form-control" />
+        <span asp-validation-for="Course" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="InstructorEmail" class="form-label"></label>
+        <input asp-for="InstructorEmail" class="form-control" />
+        <span asp-validation-for="InstructorEmail" class="text-danger"></span>
+    </div>
+    <button type="submit" class="w-100 btn btn btn-outline-dark mt-4">Submit</button>
+</form>

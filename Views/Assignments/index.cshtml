@@ -1,0 +1,70 @@
+@model IEnumerable<assignment_tracker.Models.Assignment>
+
+@{
+    ViewData["Title"] = "Assignments";
+}
+
+
+<div class="header">
+    <button class="add-button" onclick="location.href='/Assignments/Create'">New +</button>
+</div>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Deadline</th>
+            <th>Course</th>
+            <th>Instructor Email</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="assignment-row">
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td>@(item.Deadline.ToString("MMMM dd, yyyy"))</td>
+                <td>@item.Course</td>
+                <td>@item.InstructorEmail</td>
+                <td>@item.Status</td>
+                <td>
+                    <div class="action-buttons">
+                        <!-- Edit Form -->
+                      <form asp-action="Edit" asp-route-id="@item.Id" method="get" style="display:inline;">
+                        <button type="submit" class="btn-icon" title="Edit">
+                        <i class="fas fa-edit"></i>
+                        </button>
+                    </form>
+
+
+                        <!-- Complete Form -->
+                       
+                            <form asp-action="Complete" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" class="btn-icon" title="Complete">
+                                    <i class="fas fa-check"></i>
+                                </button>
+                            </form>
+                        
+
+                        <!-- Delete Form -->
+                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn-icon" title="Delete">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
