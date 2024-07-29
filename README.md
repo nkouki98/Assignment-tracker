@@ -12,10 +12,11 @@ Quick Overview of the application as follows:
 )
 
 ### Edit Assignment
-![](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif?raw=true)
+![](https://github.com/nkouki98/Assignment-tracker/blob/main/Editgif.gif?raw=true)
 
 ### Delete Assignment
-![](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif?raw=true)
+![](https://github.com/nkouki98/Assignment-tracker/blob/main/Deletegif.gif?raw=true)
+)
 
 ## Prerequisites
 
@@ -31,16 +32,18 @@ Follow these steps to get the application running on your local machine.
 
 ### Clone the Repository
 
-```bash
+`
 git clone https://github.com/your-username/Assignment-tracker.git
 cd your-repo
 
 ## Run MS SQL Server Instance using Docker on MacOS.
 
 ## In appsettings.json connect to db using 
+```bash
 "ConnectionStrings": {
-    "DefaultConnection":"Server=?;Database=DBName;User Id=UserID;Password=Setyourpassword;TrustServerCertificate=true;"
+    "DefaultConnection":"Server=localhost;Database=DBName;User Id=UserID;Password=Setyourpassword;TrustServerCertificate=true;"
   },
+```
 
 
 
