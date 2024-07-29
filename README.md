@@ -32,7 +32,6 @@ Follow these steps to get the application running on your local machine.
 
 ### Clone the Repository
 
-`
 git clone https://github.com/your-username/Assignment-tracker.git
 cd your-repo
 
@@ -44,6 +43,10 @@ cd your-repo
     "DefaultConnection":"Server=localhost;Database=DBName;User Id=UserID;Password=Setyourpassword;TrustServerCertificate=true;"
   },
 ```
+
+use ```console 
+dotnet build
+dotnet watch run ```
 
 
 
