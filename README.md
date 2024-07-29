@@ -26,6 +26,7 @@ cd your-repo
 
 ### Create Assignment
 ![](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif)
+![](ttps://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif)
 
 # DELETE ASSIGNMENT
 
