@@ -24,11 +24,8 @@ cd your-repo
 
 ### Application overview
 
-# CREATE ASSIGNMENT
-https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif
-## Watch the Demo
+![Create Assignment](https://github.com/nkouki98/Assignment-tracker/raw/main/Creategif.gif)
 
-Check out the demo video [Create Assignment](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif)
 # DELETE ASSIGNMENT
 
 # EDIT ASSIGNMENT 
