@@ -24,7 +24,8 @@ cd your-repo
 
 ### Application overview
 
-![Create Assignment](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif)
+### Create Assignment
+![](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif)
 
 # DELETE ASSIGNMENT
 
