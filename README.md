@@ -1,7 +1,40 @@
+# ASP.NET Core Application
+
+This is an ASP.NET Core application. This README provides instructions on how to set up and run the application, as well as some general information.
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- [.NET Core SDK](https://dotnet.microsoft.com/download)
+- [Docker](https://www.docker.com/get-started) (if running in a Docker container)
+- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (if using SQL Server as the database)
+
+## Getting Started
+
+Follow these steps to get the application running on your local machine.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Assignment-tracker.git
+cd your-repo
+
+## Run MS SQL Server Instance using Docker on MacOS.
+
+### Application overview
+
+# CREATE ASSIGNMENT
+https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif
+## Watch the Demo
+
+Check out the demo video [here](https://youtu.be/MxPGu9ykY6Q)
+# DELETE ASSIGNMENT
+
+# EDIT ASSIGNMENT 
+
+#COMPLETE ASSIGNMENT
 
 
 
-
-##test
-<video>https://github.com/user-attachments/assets/366fde83-622d-4c31-a154-5816673cb4d3</video>
 
