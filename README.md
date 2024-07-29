@@ -2,6 +2,10 @@
 
 This is an ASP.NET Core application. This README provides instructions on how to set up and run the application, as well as some general information.
 
+
+### Create Assignment
+![](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif?raw=true)
+
 ## Prerequisites
 
 Make sure you have the following installed:
@@ -23,9 +27,6 @@ cd your-repo
 ## Run MS SQL Server Instance using Docker on MacOS.
 
 ### Application overview
-
-### Create Assignment
-![](https://github.com/nkouki98/Assignment-tracker/blob/main/Creategif.gif?raw=true)
 
 # DELETE ASSIGNMENT
 
