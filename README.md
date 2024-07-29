@@ -25,7 +25,7 @@ cd your-repo
 ### Application overview
 
 ### Create Assignment
-![Create Assignment](main/Creategif.gif)
+![](main/Creategif.gif)
 
 # DELETE ASSIGNMENT
 
