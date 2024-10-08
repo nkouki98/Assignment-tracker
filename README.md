@@ -1,4 +1,4 @@
-# ASP.NET Core Application
+# ASP.NET MVC Application
 
 This is an ASP.NET MVC application. This README provides instructions on how to set up and run the application, as well as some general information.
 
