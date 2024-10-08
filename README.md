@@ -1,6 +1,6 @@
 # ASP.NET Core Application
 
-This is an ASP.NET Core application. This README provides instructions on how to set up and run the application, as well as some general information.
+This is an ASP.NET MVC application. This README provides instructions on how to set up and run the application, as well as some general information.
 
 Quick Overview of the application as follows:
 
